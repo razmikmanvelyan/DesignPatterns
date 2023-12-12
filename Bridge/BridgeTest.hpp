@@ -4,4 +4,4 @@
 #include "VulkanRenderer.hpp"
 #include "OpenGLRenderer.hpp"
 
-void tetsBridge();
+void testBridge();

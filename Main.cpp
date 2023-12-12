@@ -14,6 +14,7 @@
 #include "State/StateTest.hpp"
 #include "Command/CommandTest.hpp"
 #include "Bridge/BridgeTest.hpp"
+#include "Observer/ObserverTest.hpp"
 
 using namespace std;
 
@@ -31,6 +32,7 @@ int main()
 	// testChainResponsibility();
 	// testState();
 	// testCommand();
-	tetsBridge();
+	// testBridge();
+	testObserver();
 	return 0;
 }
