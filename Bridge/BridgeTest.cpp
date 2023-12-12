@@ -1,6 +1,6 @@
 #include "BridgeTest.hpp"
 
-void tetsBridge() {
+void testBridge() {
     std::unique_ptr<Bridge::RendererAPI> openGL = std::make_unique<Bridge::OpenGLRenderer>();
     std::unique_ptr<Bridge::RendererAPI> vulkan = std::make_unique<Bridge::VulkanRenderer>();
 

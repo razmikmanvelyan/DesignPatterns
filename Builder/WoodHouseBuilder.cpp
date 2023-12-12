@@ -1,4 +1,4 @@
-#include "WoodHouseBuilder.hpp";
+#include "WoodHouseBuilder.hpp"
 
 void WoodHouseBuilder::reset() {
 	this->house = std::make_shared<House>();
