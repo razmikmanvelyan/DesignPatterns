@@ -1,4 +1,4 @@
-#include "BrickHouseBuilder.h"
+#include "BrickHouseBuilder.hpp"
 
 void BrickHouseBuilder::reset()  {
 	this->house = std::make_shared<House>();

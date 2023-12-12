@@ -1,4 +1,4 @@
-#include "SingletonClass.h"
+#include "SingletonClass.hpp"
 
 SingletonClass& SingletonClass::getInstance() {
 	static SingletonClass instance;

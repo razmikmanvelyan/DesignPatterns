@@ -1,4 +1,4 @@
-#include "CompositeTest.h"
+#include "CompositeTest.hpp"
 
 void testComposite() {
     auto john = std::make_shared<Employee>("John");

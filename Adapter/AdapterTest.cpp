@@ -1,4 +1,4 @@
-#include "AdapterTest.h"
+#include "AdapterTest.hpp"
 
 void testAdapter() {
     std::shared_ptr<ThirdPartyLogger> thirdPartyLogger = std::make_shared<ThirdPartyLogger>();

@@ -1,4 +1,4 @@
-#include "BuilderTest.h"
+#include "BuilderTest.hpp"
 
 void testBuilder() {
 	 BrickHouseBuilder brickHouseBuilder;

@@ -1,4 +1,4 @@
-#include "AbstractFactoryTest.h"
+#include "AbstractFactoryTest.hpp"
 
 void testAbstractFactory() {
     std::shared_ptr<abstract_factory::CommandFactory> addCommandFactory = std::make_shared<abstract_factory::AddCommandFactory>();

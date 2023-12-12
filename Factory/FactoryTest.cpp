@@ -1,4 +1,4 @@
-#include "FactoryTest.h"
+#include "FactoryTest.hpp"
 
 void testFactory() {
     std::shared_ptr<Command> addCommand = CommandFactory::createCommand(CommandType::ADD);

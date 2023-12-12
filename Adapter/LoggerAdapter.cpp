@@ -1,4 +1,4 @@
-#include "LoggerAdapter.h"
+#include "LoggerAdapter.hpp"
 
 void LoggerAdapter::info(const std::string& message) const{
     _thirdPartyLogger->logInfo(message);

@@ -1,4 +1,4 @@
-#include "SingletonTest.h"
+#include "SingletonTest.hpp"
 
 bool testIsSingleInstance(){
 	SingletonClass& singleton1 = SingletonClass::getInstance();

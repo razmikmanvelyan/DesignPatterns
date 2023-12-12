@@ -1,4 +1,4 @@
-#include "PrototypeTest.h"
+#include "PrototypeTest.hpp"
 
 void testPrototype() {
     std::unique_ptr<Shape> circlePrototype = std::make_unique<Circle>();

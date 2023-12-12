@@ -1,4 +1,4 @@
-#include "House.h"
+#include "House.hpp"
 
 Material House::getMaterial() const {
     return material;

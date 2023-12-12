@@ -1,4 +1,4 @@
-#include "Department.h"
+#include "Department.hpp"
 
 void Department::display() {
     std::cout << "Department: " << name << std::endl;

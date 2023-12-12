@@ -1,4 +1,4 @@
-#include "Rectangle.h"
+#include "Rectangle.hpp"
 
 std::unique_ptr<Shape> Rectangle::clone() const {
 	return std::make_unique<Rectangle>(*this);

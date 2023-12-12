@@ -1,4 +1,4 @@
-#include "ThirdPartyLogger.h"
+#include "ThirdPartyLogger.hpp"
 
 void ThirdPartyLogger::logInfo(const std::string& message) const {
         std::cout << "Third-party logger - Info: " << message << std::endl;

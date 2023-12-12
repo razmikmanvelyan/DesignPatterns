@@ -1,4 +1,4 @@
-#include "Logger.h"
+#include "Logger.hpp"
 
 void Logger::info(const std::string& message) const {
     std::cout << "[INFO] " << message << std::endl;
